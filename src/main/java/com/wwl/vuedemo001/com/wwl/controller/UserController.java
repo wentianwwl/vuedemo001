@@ -30,4 +30,8 @@ public class UserController {
         list.add(user3);
         return list;
     }
+
+    public void mergeBranches(){
+        System.out.println("合并分支！");
+    }
 }
